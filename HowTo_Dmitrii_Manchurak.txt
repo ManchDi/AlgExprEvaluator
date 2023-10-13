@@ -41,6 +41,7 @@ ________________
 4. Installation
 _______________
 1. Clone this repository or download the ZIP archive and extract it to your preferred directory.
+  git: git clone https://github.com/ManchDi/AlgExprEvaluator.git
 2. Navigate to the project directory.
 3. Compile the Java source files using the following command: javac calc/a.java calc/Calc.java
 4. Run the compiled files using the following command: java calc/a
