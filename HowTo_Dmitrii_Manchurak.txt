@@ -1,0 +1,84 @@
+_____________________________________________________________________________
+
+Calculator Application ReadMe
+_____________________________________________________________________________
+
+Table of Contents
+------------------
+0. Credit
+1. Introduction
+2. Features
+3. Prerequisites
+4. Installation
+5. Usage
+6. Mathematical Expressions
+7. Unary and Binary Minus Operator
+8. Order of Precedence
+9. Implementation Details
+10. Version Control
+_____________________________________________________________________________
+0. Credit
+__________
+Code base was taken from: github.com/sblendorio/javacalc
+
+
+1. Introduction
+_______________
+The Calculator Application is a command-line utility that can perform basic arithmetic, trigonometric, and logarithmic operations. It evaluates mathematical expressions involving real numbers, parentheses, and curly brackets, following operator precedence and mathematical function rules.
+
+2. Features
+___________
+- Arithmetic: +, -, *, /, ^, sqrt
+- Trigonometric: sin, cos, tan, cot
+- Logarithmic: ln, log10
+- Support for parentheses () and curly brackets {}
+- Proper evaluation of mathematical expressions
+
+3. Prerequisites
+________________
+- Java Development Kit (JDK) 8 or later
+
+4. Installation
+_______________
+1. Clone this repository or download the ZIP archive and extract it to your preferred directory.
+2. Navigate to the project directory.
+3. Compile the Java source files using the following command: javac calc/a.java calc/Calc.java
+4. Run the compiled files using the following command: java calc/a
+
+5. Usage
+________
+1. To run the Calculator Application using the following command: java calc/a
+2. To exit type: exit
+
+6. Mathematical Expressions
+___________________________
+You can enter mathematical expressions involving the supported operators and functions. Example usage:
+
+- 2 + 2
+- sin(30) * (5 + sqrt(9)) / abs(-3)
+- ln(10) + log10(100)
+
+7. Unary and Binary Minus Operator
+_______________________________
+- The `-` operator can be both unary and binary based on syntax.
+
+8. Order of Precedence
+______________________
+The Calculator Application follows the standard operator precedence rules. For precise evaluation, use parentheses and curly brackets to specify the order of operations.
+Make sure to use * for multiplication. 2(3) is not a correct syntax.
+
+9. Implementation Details
+_________________________
+- The mathematical expression evaluation is implemented within the software code.
+- No external evaluation functions (e.g., `eval()`) are used.
+
+
+10. Version Control
+___________________
+The source code had been uploaded on 10/13/2023 to the git and will be maintained through there.
+
+Thank you for using the Calculator Application!
+
+- Dima Manchurak
+
+_____________________________________________________________________________
